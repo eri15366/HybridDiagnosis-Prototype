@@ -1,0 +1,11 @@
+<Shell
+    x:Class="HybridDiagnostics.Sample.AppShell"
+    xmlns:local="clr-namespace:HybridDiagnostics.Sample"
+    Title="HybridDiagnostics.Sample">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+</Shell>
